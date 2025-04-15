@@ -48,11 +48,11 @@ export default function Contact() {
                     <div className="flex">
                         <div className="w-1/2">
                             <h6 className="font-outfit font-medium uppercase text-sm tracking-wider text-white mb-2">Email:</h6>
-                            <h3 className="font-outfit font-medium text-2xl lg:text-3xl text-white">{contactData.mainData.email}</h3>
+                            <h3 className="font-outfit font-medium text-1xl lg:text-3xl text-white">{contactData.mainData.email}</h3>
                         </div>
                         <div className="w-1/2">
                             <h6 className="font-outfit font-medium uppercase text-sm tracking-wider text-white mb-2">Call:</h6>
-                            <h3 className="font-outfit font-medium text-2xl lg:text-3xl text-white">{contactData.mainData.phone}</h3>
+                            <h3 className="font-outfit font-medium text-1xl lg:text-3xl text-white">{contactData.mainData.phone}</h3>
                         </div>
                     </div>
                     {/* Contact Form */}
